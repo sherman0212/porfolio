@@ -1,0 +1,163 @@
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+head{
+    display: none;
+}
+body{
+   
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+   
+}
+div{
+    display: block;
+}
+
+h1{
+    color: #E20000;
+}
+
+p{
+    color: #6A6A6A;
+}
+#proyectos{
+    background-image: url(../images/fondo.png);
+    background-size: 100%;
+}
+#contacto{
+    background-image: url(../images/fondo-contacto.png);
+    background-size: 100%;
+}
+#contacto main{
+    height:83vh;
+}
+main{
+    display: block;
+}
+.conteiner {  
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}  
+input textarea{
+    border-radius: 15px !important;
+    border:0px !important;
+}
+textarea{
+    height:150px !important ;
+    resize:none ;
+}
+nav .nav-link{
+    color: #262626 ;
+}
+nav .active{
+    border: 1px solid #E20000;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 5px 20px;
+    font-weight: 100;
+}
+.nav-link{
+
+        display: block;
+        padding: .5rem 1rem;
+}
+
+.btn{
+background-color: #ffffff;
+color: #370a6d;
+font-weight: 500;
+font-size: 16px;    
+border-radius: 20px;
+padding: 8px 40px;
+}
+footer, footer a{
+    color: white;
+    font-weight: 100;
+    font-size: 14px;
+}
+footer .fa-whatsapp{
+    color: white;
+    background-color: #370A6D;
+    font-size: 30px;
+    padding: 10px 19px;
+    border-radius: 10px 10px 0 0;
+    height: 65px;
+    width: 65px;
+}
+footer .fa-github{
+    font-size: 30px;
+    color: white;
+}
+footer .fa-linkedin-in{
+    color: #ff4a49;
+    background-color: white;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+#proyectos footer, #proyectos footer a{
+    color: #e20000;
+}
+#proyectos footer .fa-github{
+    font-size: 30px;
+    color: #e20000;
+}
+#proyectos footer .fa-linkedin-in{
+    font-size: 30px;
+    color: #e20000;
+}
+.btn{
+    background-color: ffffff;
+    color: #370a6d ;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 20px;
+    padding: 5px 35px;
+}
+.btn:hover{
+    background-color:  #370a6d  ;
+    color:#ffffff;
+}
+.btn-pdf{
+    color: white;
+    background-color: #E20000;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 8px 40px;
+    font-weight: 100;
+}
+.btn-pdf:hover{
+    text-decoration: underline;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-12 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
